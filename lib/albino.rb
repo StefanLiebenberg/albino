@@ -75,7 +75,7 @@ class Albino
 
   def initialize(target, lexer = :text, format = :html, encoding = self.class.default_encoding)
     @target  = target
-    @options = { :l => lexer, :f => format, :O => "encoding=#{encoding}" }
+    @options = { :l => lexer, :f => format  }
     @encoding = encoding
   end
 
